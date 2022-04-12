@@ -31,7 +31,7 @@ const photo = [
 let photoStr = `<img src="${photo[0].imgURL}">`;
 let photoImage = document.getElementById("photo-image");
 
-photoImage.innerHTML = photoStr;
+// photoImage.innerHTML = photoStr;
 
 // 初期表示情報の設定
 let itemName = document.getElementById("item-Name");

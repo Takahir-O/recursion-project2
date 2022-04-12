@@ -2,8 +2,16 @@ body{
     min-height: 100vh;
 }
 
+img{
+    
+}
+
 .main{
     min-height: 100vh;
+}
+
+.l-box{
+    max-height: 500px;
 }
 
 .r-box{
