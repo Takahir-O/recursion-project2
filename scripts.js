@@ -1,6 +1,6 @@
 
 const setting = {
-    
+
 }
 
 class photo {
@@ -10,3 +10,5 @@ class photo {
         this.imgURL = imgURL;
     }
 }
+
+const items = 
