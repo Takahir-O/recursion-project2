@@ -13,13 +13,24 @@
         <div class="p-title"><h1>Picture Vending Machine</h1></div>
         <div class="container">
             <div class="row">
-                <div class="col-8 bg-primary">
-                    <img class="w-100" src="https://images.unsplash.com/photo-1649658166972-700ce4339205?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80" alt="">
+                <!-- 左側のコンテンツ -->
+                <div id="slider" class="col-12 col-md-8 bg-primary">
+                    <div id="photo-image" class="slider-data"></div>
                 </div>
-                <div class="col-4 bg-secondary d-flex flex-column justify-content-around align-items-center" >
-                    <div class="row">a</div>
-                    <div class="row">a</div>
-                    <div class="row">a</div>
+
+                <!-- 右側のコンテンツ -->
+                <div class=" col-12 col-md-4 bg-secondary d-flex flex-column justify-content-around" >
+                    <div class="r-box">a</div>
+                    <div id="item-btn" class="button-container">
+                        <div class="col-12 d-flex flex-wrap ">
+                            <div class="col-3 py-2 px-2">
+                                <button class="btn btn-light col-12">1</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-box">
+                        <button type="button" class="btn btn-light w-100 my-2">Purchase</button>
+                    </div>
                 </div>
             </div>
         </div>
